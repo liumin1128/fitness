@@ -43,17 +43,17 @@ export default function LabelBottomNavigation() {
       >
         <BottomNavigationAction
           label="Exercise"
-          value="/exercise"
+          value="/home/exercise"
           icon={<FavoriteIcon />}
         />
         <BottomNavigationAction
           label="History"
-          value="/history"
+          value="/home/history"
           icon={<LocationOnIcon />}
         />
         <BottomNavigationAction
           label="Account"
-          value="/account"
+          value="/home/account"
           icon={<FolderIcon />}
         />
       </BottomNavigation>

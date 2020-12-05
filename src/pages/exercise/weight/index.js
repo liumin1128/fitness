@@ -4,7 +4,9 @@ import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Paper from "@material-ui/core/Paper";
 import ImgList from "components/ImgList";
+import Appbar from "components/Appbar";
 import list from "./data";
+
 const useStyles = makeStyles({
   root: {
     width: "100%",
@@ -15,6 +17,9 @@ const useStyles = makeStyles({
   container: {
     paddingTop: 16,
   },
+  title: {
+    fontWeight: "bold",
+  },
 });
 
 export default () => {
@@ -23,11 +28,13 @@ export default () => {
   return (
     <>
       <div className={classes.root}>
+        <Appbar title="Body Weight Training" />
         <Container maxWidth="sm" className={classes.container}>
           <Paper elevation={0} className={classes.paper}>
-            <Typography variant="h5" gutterBottom>
-              Choose a workout
+            <Typography className={classes.title} variant="h6">
+              Body Weight Training Perfect at Home!
             </Typography>
+            <br />
             <ImgList list={list} />
           </Paper>
         </Container>
