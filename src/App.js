@@ -6,6 +6,9 @@ import {
   Redirect,
   Link,
 } from "react-router-dom";
+import Exercise from "pages/exercise";
+import History from "pages/history";
+import Account from "pages/account";
 
 function App() {
   return (
@@ -15,10 +18,17 @@ function App() {
           <Route exact path="/">
             <Redirect to="/exercise" />
           </Route>
-          <Route path="/exercise">exercise</Route>
-          <Route path="/history">history</Route>
-          <Route path="/account">account</Route>
+          <Route path="/exercise">
+            <Exercise />
+          </Route>
+          <Route path="/history">
+            <History />
+          </Route>
+          <Route path="/account">
+            <Account />
+          </Route>
         </Switch>
+        <div style={{ paddingBottom: 74 }}></div>
         <BottomNavigationBar />
       </div>
     </Router>

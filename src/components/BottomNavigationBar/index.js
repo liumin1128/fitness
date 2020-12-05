@@ -12,10 +12,11 @@ import {
   useLocation,
   useHistory,
 } from "react-router-dom";
+import AppBar from "@material-ui/core/AppBar";
 
 const useStyles = makeStyles({
   root: {
-    position: "fixed",
+    // position: "fixed",
     bottom: 0,
     width: "100%",
   },
@@ -34,26 +35,28 @@ export default function LabelBottomNavigation() {
   };
 
   return (
-    <BottomNavigation
-      value={value}
-      onChange={handleChange}
-      className={classes.root}
-    >
-      <BottomNavigationAction
-        label="Exercise"
-        value="/exercise"
-        icon={<FavoriteIcon />}
-      />
-      <BottomNavigationAction
-        label="History"
-        value="/history"
-        icon={<LocationOnIcon />}
-      />
-      <BottomNavigationAction
-        label="Account"
-        value="/account"
-        icon={<FolderIcon />}
-      />
-    </BottomNavigation>
+    <AppBar position="fixed" style={{ top: "auto", bottom: 0, left: 0 }}>
+      <BottomNavigation
+        value={value}
+        onChange={handleChange}
+        className={classes.root}
+      >
+        <BottomNavigationAction
+          label="Exercise"
+          value="/exercise"
+          icon={<FavoriteIcon />}
+        />
+        <BottomNavigationAction
+          label="History"
+          value="/history"
+          icon={<LocationOnIcon />}
+        />
+        <BottomNavigationAction
+          label="Account"
+          value="/account"
+          icon={<FolderIcon />}
+        />
+      </BottomNavigation>
+    </AppBar>
   );
 }
