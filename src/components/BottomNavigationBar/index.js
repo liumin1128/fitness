@@ -2,21 +2,14 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import BottomNavigation from "@material-ui/core/BottomNavigation";
 import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
-import FolderIcon from "@material-ui/icons/Folder";
-import RestoreIcon from "@material-ui/icons/Restore";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import LocationOnIcon from "@material-ui/icons/LocationOn";
-import {
-  BrowserRouter as Router,
-  Switch,
-  useLocation,
-  useHistory,
-} from "react-router-dom";
+import { useLocation, useHistory } from "react-router-dom";
 import AppBar from "@material-ui/core/AppBar";
+import HistoryIcon from "@material-ui/icons/History";
+import HomeIcon from "@material-ui/icons/Home";
+import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 
 const useStyles = makeStyles({
   root: {
-    // position: "fixed",
     bottom: 0,
     width: "100%",
   },
@@ -40,21 +33,22 @@ export default function LabelBottomNavigation() {
         value={value}
         onChange={handleChange}
         className={classes.root}
+        showLabels
       >
         <BottomNavigationAction
           label="Exercise"
           value="/home/exercise"
-          icon={<FavoriteIcon />}
+          icon={<HomeIcon />}
         />
         <BottomNavigationAction
           label="History"
           value="/home/history"
-          icon={<LocationOnIcon />}
+          icon={<HistoryIcon />}
         />
         <BottomNavigationAction
           label="Account"
           value="/home/account"
-          icon={<FolderIcon />}
+          icon={<AccountCircleIcon />}
         />
       </BottomNavigation>
     </AppBar>
