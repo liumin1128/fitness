@@ -7,6 +7,7 @@ import Paper from "@material-ui/core/Paper";
 import Avatar from "@material-ui/core/Avatar";
 import InfoList from "components/InfoList";
 import ChipList from "components/ChipList";
+import LogoSmall from "components/Logo/Small";
 import ListSubheader from "@material-ui/core/ListSubheader";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -73,7 +74,6 @@ export default () => {
             </IconButton>
           </Toolbar>
         </AppBar>
-
         <div className={classes.header}>
           <Avatar
             aria-label="recipe"
@@ -149,6 +149,11 @@ export default () => {
             </div>
           </Paper>
         </Container>
+        <div
+          style={{ padding: 16, display: "flex", justifyContent: "flex-end" }}
+        >
+          <LogoSmall />
+        </div>
       </div>
     </>
   );
