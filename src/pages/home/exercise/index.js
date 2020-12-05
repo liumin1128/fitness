@@ -6,6 +6,7 @@ import Paper from "@material-ui/core/Paper";
 import ImgList from "components/ImgList";
 import Logo from "components/Logo";
 import list from "./data";
+
 const useStyles = makeStyles({
   root: {
     width: "100%",
