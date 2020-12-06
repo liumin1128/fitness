@@ -14,6 +14,7 @@ import HLLT from "pages/exercise/hllt";
 import Weight from "pages/exercise/weight";
 import Strethcing from "pages/exercise/strethcing";
 import Yoga from "pages/exercise/yoga";
+import Details from "pages/details";
 
 function App() {
   return (
@@ -53,6 +54,9 @@ function App() {
                 <Yoga />
               </Route>
             </Switch>
+          </Route>
+          <Route path="/details">
+            <Details />
           </Route>
         </Switch>
       </div>
