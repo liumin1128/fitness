@@ -35,10 +35,7 @@ export default ({ list = [] }) => {
   return (
     <div className={classes.root}>
       <div className={classes.logoBox}>
-        <img
-          className={classes.logo}
-          src="https://d1icd6shlvmxi6.cloudfront.net/gsc/6PE4NS/aa/71/ca/aa71ca555ef449be897a145029839b9c/images/yoga/u11.png?token=3bfb4924c1518c7ce28a795eabd37c7a7bfdc4c3387011d865311c7a20f1dea8"
-        />
+        <img className={classes.logo} src="/images/logo_small.png" />
       </div>
     </div>
   );
