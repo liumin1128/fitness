@@ -1,6 +1,6 @@
 import BottomNavigationBar from "components/BottomNavigationBar";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Redirect,
