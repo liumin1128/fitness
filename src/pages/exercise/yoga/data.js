@@ -2,6 +2,7 @@ export default [
   {
     title: "Total Body Yoga, Yoga With Adriene",
     src: "/images/yoga1.png",
+    link: "/details?id=yoga1",
   },
   {
     title: "Yoga for Men | Episode 1",
