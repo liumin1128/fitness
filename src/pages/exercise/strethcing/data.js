@@ -7,7 +7,7 @@ export default [
   {
     src: "./images/strethcing2.png",
     title: "15 Min. Full Body Stretch",
-    link: "/details?id=strethcing1",
+    link: "/details?id=strethcing2",
   },
   {
     title: "Lower Body Stretch",

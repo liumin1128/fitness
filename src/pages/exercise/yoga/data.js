@@ -7,6 +7,7 @@ export default [
   {
     title: "Yoga for Men | Episode 1",
     src: "./images/yoga2.png",
+    link: "/details?id=yoga2",
   },
   {
     title: "Yoga for Beginners Session 3",

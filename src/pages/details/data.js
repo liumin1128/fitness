@@ -21,6 +21,24 @@ const list = [
   },
 
   {
+    id: "weight1",
+    title: "25 MIN FULL BODYWEIGHT WORKOUT",
+    iframe: "https://www.youtube.com/embed/SaY7cTZ15AI",
+    content: [
+      `Welcome to your 15 Minutes Full Body Stretching Routine! This short and well balanced sequence provides you with everything you need to get your daily dose of flexibility, mobility & relaxation. Feel free to implement this routine in your daily workout schedule to get the best results. Physically and mentally.`,
+    ],
+  },
+
+  {
+    id: "weight2",
+    title: "KILLER 15 Minute FAT BURNING Body Workout",
+    iframe: "https://www.youtube.com/embed/ehmdRnfuZAA",
+    content: [
+      `Welcome to your 15 Minutes Full Body Stretching Routine! This short and well balanced sequence provides you with everything you need to get your daily dose of flexibility, mobility & relaxation. Feel free to implement this routine in your daily workout schedule to get the best results. Physically and mentally.`,
+    ],
+  },
+
+  {
     id: "strethcing1",
     title: "Full Body Stretching Routine (15 min. Follow Along)",
     iframe: "https://www.youtube.com/embed/E2SOrScNbww",
@@ -30,9 +48,34 @@ const list = [
   },
 
   {
+    id: "strethcing2",
+    title: "Full Body Stretching Routine (15 min. Follow Along)",
+    iframe: "https://www.youtube.com/embed/g_tea8ZNk5A",
+    content: [
+      `Welcome to your 15 Minutes Full Body Stretching Routine! This short and well balanced sequence provides you with everything you need to get your daily dose of flexibility, mobility & relaxation. Feel free to implement this routine in your daily workout schedule to get the best results. Physically and mentally.`,
+    ],
+  },
+
+  {
     id: "yoga1",
     title: "Total Body Yoga - Deep Stretch | Yoga With Adriene",
     iframe: "https://www.youtube.com/embed/GLy2rYHwUqY",
+    content: [
+      `A no equipment, no noise, no impact 20 minute fat burning HIIT workout you can do anywhere and follow easily! `,
+      ` My new HOME. programme with 50 unique workouts + nutrition approved by a world-leading expert behind British Olympic athletes is now LIVE at www.natachaoceane.com `,
+      `The 20 minute HIIT workout: each exercise is performed for 30s and followed by 30s rest. It's a circuit of 5 exercises, repeated 4 times!`,
+      `1. Prisoner side to side squats`,
+      `2. Explosive halo slam`,
+      `3. Single leg body saw crunch`,
+      `4. Alternating knee strikes`,
+      `5. Lateral bears + kneel-to-squat`,
+    ],
+  },
+
+  {
+    id: "yoga2",
+    title: "Yoga for men | epside 1",
+    iframe: "https://www.youtube.com/embed/NQzDFgnyYAo",
     content: [
       `A no equipment, no noise, no impact 20 minute fat burning HIIT workout you can do anywhere and follow easily! `,
       ` My new HOME. programme with 50 unique workouts + nutrition approved by a world-leading expert behind British Olympic athletes is now LIVE at www.natachaoceane.com `,
