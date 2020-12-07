@@ -35,7 +35,7 @@ export default ({ list = [] }) => {
   return (
     <div className={classes.root}>
       <div className={classes.logoBox}>
-        <img className={classes.logo} src="/images/logo_big.png" />
+        <img className={classes.logo} src="./images/logo_big.png" />
       </div>
       <Typography className={classes.title} variant="h6">
         Home Exercise

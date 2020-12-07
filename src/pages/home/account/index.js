@@ -77,7 +77,7 @@ export default () => {
         <div className={classes.header}>
           <Avatar
             aria-label="recipe"
-            src="/images/exercise2.jpg"
+            src="./images/exercise2.jpg"
             className={classes.avatar}
           >
             R
